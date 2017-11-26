@@ -13,7 +13,7 @@ module.exports = {
     },
     ropsten: {
       provider: new HDWalletProvider(mnemonic, "https://ropsten.infura.io/"+infura_apikey),
-      gas: 4700036,
+      gas: 4704036,
       network_id: 3
     }
   }

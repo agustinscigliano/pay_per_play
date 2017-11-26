@@ -1,11 +1,8 @@
 const PayPerPlayICO = artifacts.require("./PayPerPlayICO.sol")
 
 module.exports = function(deployer, network, accounts) {
- //TODO: Remove this when deploy.
- //const startTime = web3.eth.getBlock(web3.eth.blockNumber).timestamp + 1
- //const endTime = startTime + (86400 * 20) 
- const startTime = 1511739000; // 		20:30:00 GMT-03:00 - 26/11/17
- const endTime = 1511920800; // 			11:00:00 PM GMT-03:00 - 28/11/17
+ const startTime = 1511739000; 
+ const endTime = 1511920800;
  const rate = new web3.BigNumber(1000)
  const wallet = accounts[0]
 
