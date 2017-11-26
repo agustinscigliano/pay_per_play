@@ -1,10 +1,10 @@
 pragma solidity ^0.4.18;
 
 import './PayPerPlayToken.sol';
-import '/zeppelin-solidity/contracts/crowdsale/Crowdsale.sol';
-import '/zeppelin-solidity/contracts/crowdsale/FinalizableCrowdsale.sol';
-import '/zeppelin-solidity/contracts/crowdsale/CappedCrowdsale.sol';
-import '/zeppelin-solidity/contracts/ownership/Ownable.sol';
+import 'zeppelin-solidity/contracts/crowdsale/Crowdsale.sol';
+import 'zeppelin-solidity/contracts/crowdsale/FinalizableCrowdsale.sol';
+import 'zeppelin-solidity/contracts/crowdsale/CappedCrowdsale.sol';
+import 'zeppelin-solidity/contracts/ownership/Ownable.sol';
 
 
 
