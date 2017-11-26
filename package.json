@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "truffle-flattener": "^1.2.0",
     "truffle-hdwallet-provider": "0.0.3",
     "zeppelin-solidity": "^1.4.0"
   }
