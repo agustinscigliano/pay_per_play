@@ -8,7 +8,7 @@ module.exports = {
     development: {
       host: "localhost",
       port: 8545,
-      gas: 4700036,
+      gas: 6700036,
       network_id: "*" // Match any network id
     },
     ropsten: {
@@ -16,5 +16,11 @@ module.exports = {
       gas: 4704036,
       network_id: 3
     }
-  }
+},
+   solc: {
+     optimizer: {
+     enabled: true,
+     runs: 200
+         }
+      }
 };
